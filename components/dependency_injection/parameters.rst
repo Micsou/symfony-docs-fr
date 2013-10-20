@@ -5,7 +5,7 @@ Introduction aux paramètres
 ===========================
 
 Vous pouvez définir des paramètres dans le conteneur de services qui peuvent être
-directement utilisé ou en partie dans les définitions des services. Cela peut
+directement utilisés ou en partie dans les définitions des services. Cela peut
 aider à séparer les valeurs que vous changez régulièrement.
 
 Récupérer et définir les paramètres du Conteneur
@@ -170,7 +170,7 @@ exemple, en ajoutant le paramètre dans la classe du service:
 Tableau de paramètres
 ---------------------
 
-Les paramètres ne sont pas nécessaires de simple chaîne de caractères, ils peuvent
+Les paramètres ne sont pas nécessairement de simples chaînes de caractères, ils peuvent
 être aussi des tableaux. Pour le format XML, vous aurez besoin d'utiliser l'attribut
 ``type="collection"`` pour tous les paramètres qui sont des tableaux.
 
